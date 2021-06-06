@@ -1,0 +1,107 @@
+<!DOCTYPE html> <!--saies document type-->
+<html>
+    <head>     
+        <!--Metadata - data about data/Instruction about data-->
+        <title>
+            This is html page
+        </title>
+    </head>
+    <body>      
+        <!--visible part-->
+        <h1>H1 Heading</h1> 
+        <h3>H3 Heading</h3> 
+        <h6>H6 Heading</h6>
+        <hr> <!--hr- Horizontal Roll, for a line-->
+        <p width="100px">This is a peragraph with attribute</p>
+
+        <pre> <!--Same formet from it-->
+            Your childhood teacher did not wrong you when they taught you that there should be three, or four, or five sentences in a paragraph.
+            It is important to understand, however, that the aim in teaching this was not to impart a hard-and-fast rule of grammar, drawn from an authoritative-but-dusty book. 
+        </pre>
+        
+        <p> <!--It will remove extra space and line break-->
+            <b>Your childhood teacher</b> did not wrong you when <strong>taught you that</strong><!--importance-->
+            there should be <i>three, or four, or five</i> <em>sentences in a paragraph.</em><br><!--Must need to break line. Otherwise no break exist-->
+            It is <small>important</small> to understand, however, that <mark>the aim</mark> in <delete>teaching</delete> <ims>this was not to impart</ims> a hard-and-fast rule of grammar, drawn from an authoritative-but-dusty book.
+            <br><br><br>
+            (X<sub>i</sub>)
+            (X<sup>2</sup>) 
+        </p>
+
+        <address>
+            Dhaka Cantonment, Dhaka
+        </address>
+        <cite>The FRIENDS</cite> is the best series I have ever seen.
+        <br>
+        <a href="https://www.youtube.com">It's link tag. It will change current tab</a> <br>
+        <a href="https://www.youtube.com" target="_blank" title="Go to YouTube">It's link tag. It will open another tab and it have hant.</a> <br>
+        <a href="#Last">End of the page.</a> <br>
+
+        <!--Email Link. Auto open email and be written TO and SUBJECT-->
+        <p>
+            What to know? Contact <a href="mailto:safwanbinrahman103@gmail.com?subject= About to Know U ">safwanbinrahman103@gmail.com</a> 
+        </p>
+        <img src="C:\Users\ASUS\Pictures\flower.jpg" width="200" height="250">
+
+        <marquee>It's a moving tage (Right to left).</marquee>
+        <marquee direction="Right">It's a moving text (Left to Right).</marquee> <!--dir can be up/down-->
+
+        <!--Ordered List-->
+        <ol start="101" type="1"> <!--Type can be A,a,I,i-->
+            <li>Coffee</li> 
+            <li>Tea</li>
+            <li>Juce</li>
+        </ol>
+        <!--Unordered List-->
+        <ul style="list-style-type: disc;"> <!--"disc" can be circle, squire, none-->
+            <li>Coffee</li> 
+            <li>Tea</li>
+            <li>Juce</li>
+        </ul>
+        
+        <!--Create Table-->
+        <table border="1">
+            <caption>Demo Table</caption>
+            <thead style="color:yellow;">
+                <tr>
+                    <th>Heading 1</th>
+                    <th>Heading 2</th>
+                    <th>Heading 3</th>
+                </tr>
+            </thead>
+            <tbody >
+                <tr>
+                    <th>Heading 4</th>
+                    <td>Data 1</td>
+                    <td><img src="C:\Program Files (x86)\FarCry 3\bin/farcry3.ico"></td>
+                </tr>
+                <tr>
+                    <th rowspan="2">Heading 5 rowspan</th>
+                    <td>Data 3</td>
+                    <td><a href="https://www.google.com">Google</a></td>
+                </tr>
+                <tr>
+                    
+                    <td colspan="2">Data 5 colspan</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--
+        <DIV>-Block Element = By defalt take all space and start from first.
+        <span>-Inline Element =  By defalt take necessary space and start from end.
+        -->
+        <div>Rendom div text 1</div> 
+        <div style="border: 1px solid blue;">Rendom div text 2. It took full line</div>
+        <br>
+        <span>Rendom span text 1</span> 
+        <span style="border: 1px solid blue;">Rendom span text 2. It took just necessary part.</span>
+        <br><br>
+
+        <!--Showing another web in my web-->
+        <iframe src="https://www.prothomalo.com/" height="500" width="1090"></iframe>
+
+
+        <p id="Last"></p> <!--May use any Name-->
+    </body>
+</html>
